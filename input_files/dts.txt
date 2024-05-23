@@ -1,0 +1,6 @@
+N : 10 ;
+Initial Ststes : s_0_1, s_0_2, s_0_3, s_0_4;
+Obstacles : s_0_5, s_0_6, s_0_7, s_0_8, s_0_9, s_1_6, s_1_7, s_1_8, s_1_9, s_2_7, s_2_8, s_2_9, s_3_8, s_3_9, s_4_9, s_5_0, s_6_0, s_6_1, s_7_0, s_7_1, s_7_2, s_8_0, s_8_1, s_8_2, s_8_3, s_9_0, s_9_1, s_9_2, s_9_3, s_9_4;
+Goal States : s_9_7, s_9_8, s_9_9, s_8_7;
+synthesis;
+Intermediate States : s_5_4
