@@ -3,9 +3,7 @@ This repository contains HyperSYM,an automated tool for verifying and synthesizi
 
 ##Clone this repository:
 ```sh
-git clone https://github.com/AutoHyper/autohyper
-cd autohyper
-git submodule init
-git submodule update
+git clone https://github.com/dependable-cps/HyperSym
+cd HyperSym
 
 
