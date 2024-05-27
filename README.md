@@ -51,3 +51,6 @@ The user can provide input via the `dts.txt` file to configure the parameters an
 
 The `text` file should contain the formula you want to run. The syntax for the formula can be found in the `formula_syntax` file.
 
+* The program will read the `dts.txt` file and the `text` file to proceed with the synthesis and formula execution based on the specified states and parameters.
+
+
