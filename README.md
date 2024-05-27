@@ -27,8 +27,8 @@ We require the following dependencies:
 * **Matplotlib** (tested with version 3.8.3)
 * **Z3-solver** (tested with version 4.13.0.0)
 
-## Build AutoHyper
-To build AutoHyper run the following (when in the main directory of this repository).
+## Build HyperSym
+To build HyperSym run the following (when in the main directory of this repository).
 ```sh
 cd HyperSym
 python main.py
