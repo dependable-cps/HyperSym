@@ -19,7 +19,7 @@ The project is organized into the following directories:
 * **main.py**: The main entry point for running the tool.
 
 ## Build HyperSym
-## Dependencies
+### Dependencies
 
 We require the following dependencies:
 
@@ -27,10 +27,12 @@ We require the following dependencies:
 * **Matplotlib** (tested with version 3.8.3)
 * **Z3-solver** (tested with version 4.13.0.0)
 
-##Build AutoHyper
+## Build AutoHyper
 To build AutoHyper run the following (when in the main directory of this repository).
 ```sh
 cd HyperSym
 python main.py
 ```
+## Input to HyperSym
+
 
