@@ -18,3 +18,11 @@ The project is organized into the following directories:
 * **plots/**: Stores the generated synthesis output plots for visualization.
 * **main.py**: The main entry point for running the tool.
 
+## Build HyperSym
+## Dependencies
+
+We require the following dependencies:
+
+* **Python 3.8** (tested with version 3.8.3)
+* **Matplotlib** (tested with version 3.8.3)
+* **Z3-solver** (tested with version 4.13.0.0)
