@@ -52,5 +52,14 @@ The user can provide input via the `dts.txt` file to configure the parameters an
 The `text` file should contain the formula you want to run. The syntax for the formula can be found in the `formula_syntax` file.
 
 * The program will read the `dts.txt` file and the `text` file to proceed with the synthesis/verification and formula execution based on the specified states and parameters.
+```sh
+E_V2 F_V1 . [H^1 I_V1 = H^1 I_V2]^[0,2] * [H^1 P1_V1 & H^1 P1_V2]^[3,8] * ([H^1 G_V2]^[9,13] & [H^1 G_V2] -> [H^1 G_V1]^[9,13])
+```
+This formula can be broken down as follows:
 
+- `E_V2 F_V1`: Some initial setup or context for the formula.
+- `[H^1 I_V1 = H^1 I_V2]^[0,2]`: A condition or constraint applied over the interval [0,2].
+- `[H^1 P1_V1 & H^1 P1_V2]^[4,6]`: Another condition applied over the interval [4,6].
+- `[H^1 P2_V1 & H^1 P2_V2]^[7,10]`: Yet another condition applied over the interval [7,10].
+- `([H^1 G_V2]^[9,13] & [H^1 G_V2] -> [H^1 G_V1]^[9,13])`: A complex condition combining intervals and implications.
 
