@@ -47,5 +47,7 @@ The user can provide input via the `dts.txt` file to configure the parameters an
 - - **synthesis**: This command initiates the synthesis process based on the provided input states and parameters(or verification)
 - **Intermediate States**: The states that act as intermediate checkpoints, separated by commas (e.g., `Intermediate States : s_5_2, s_5_6;`).
 
-The 
+### Formula File (`text`)
+
+The `text` file should contain the formula you want to run. The syntax for the formula can be found in the `formula_syntax` file.
 
