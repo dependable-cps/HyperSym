@@ -34,5 +34,29 @@ cd HyperSym
 python main.py
 ```
 ## Input to HyperSym
+The `dts.txt` file should be formatted as follows:
+
+### Parameters
+
+- **N**: The size of the grid or number of states (e.g., `N : 10;`).
+- **Initial States**: The initial states of the system, separated by commas (e.g., `Initial States : s_0_1, s_0_2, s_0_3, s_0_4;`).
+- **Obstacles**: The states that are considered obstacles, separated by commas (e.g., `Obstacles : s_0_5, s_0_6, s_0_7, s_0_8, s_0_9, ...;`).
+- **Goal States**: The target or goal states, separated by commas (e.g., `Goal States : s_9_7, s_9_8, s_9_9, s_8_7, s_8_8, s_8_9;`).
+- **Intermediate States**: The states that act as intermediate checkpoints, separated by commas (e.g., `Intermediate States : s_5_2, s_5_6;`).
+
+### Commands
+
+- **synthesis**: This command initiates the synthesis process based on the provided input states and parameters(or verification)
+
+## Usage
+
+1. Edit the `dts.txt` file according to the input format specified above.
+2. Run the program by executing the following command in your terminal:
+
+    ```sh
+    python main.py
+    ```
+
+3. The program will read the `dts.txt` file and proceed with the synthesis based on the specified states and parameters.
 
 
